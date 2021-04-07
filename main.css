@@ -1,17 +1,14 @@
 html,
 body {
     height: 100%;
-    margin: 0;
     background-color: black;
+    margin-top: 40px;
 }
 h1 {
     font-size: 40px;
-    position: relative;
     text-align: center;
-    left: -95px;
-    bottom: -120px;
     color:white;
-    background-image: url(Assets/linktree\ bubble.svg);
+    background-image: url(Assets/linktree_bubble.svg);
     background-position: center;
     background-repeat:no-repeat;
     width:400px;
@@ -30,48 +27,33 @@ h2 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    position: relative;
-    bottom: 40px;
+
     /* right: -5px; */
 }
-.main-container {
-background-color: rgb(0, 0, 0);   
-display: grid; 
-height: 100%;
-grid-template-columns: 200px;
-grid-template-rows: 200px 75px 400px;
-grid-template-areas: 
-"logo"
-"icon"
-"link";
-align-content: center;
-justify-content: center;
-padding: 15px;
 
-
-}
 
 
 
 .logo-container {
-grid-area: logo;
+display:grid;
+margin:auto;
 width: 120px;
-position: relative;
-right: -45px;
-bottom: 70px;
+
 }
 .icon-container{
-    grid-area: icon;
-    /* display: flex; 
-    justify-content: center; */
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "a b c" ;
+    width: 33%;
     align-items: center;
     justify-items: center;
-    column-gap: 10px;
-    position: relative;
-    bottom: 20px;
-    right: -8px;
+    column-gap: 20px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+   
+   
 }
 .icon-container img{
 width: 27px; 
@@ -79,13 +61,10 @@ width: 27px;
 
 
 .link-container {
-    grid-area: link;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
-    position: relative;
-    bottom: 150px;
     
 }
     
