@@ -2,8 +2,9 @@ html,
 body {
     height: 100%;
     background-color: black;
-    margin-top: 40px;
+    margin-top: 10%;
 }
+
 h1 {
     font-size: 40px;
     text-align: center;
@@ -27,6 +28,7 @@ h2 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    margin-bottom: 20px;
 
     /* right: -5px; */
 }
@@ -35,9 +37,10 @@ h2 {
 
 
 .logo-container {
-display:grid;
-margin:auto;
-width: 120px;
+margin-left: auto;
+margin-right: auto;
+width: 100px;
+padding-bottom: 20px;
 
 }
 .icon-container{
@@ -50,7 +53,7 @@ width: 120px;
     align-items: center;
     justify-items: center;
     column-gap: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     margin: 0 auto;
    
    
@@ -62,7 +65,7 @@ width: 27px;
 
 .link-container {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
     align-items: center;
     justify-items: center;
     
